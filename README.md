@@ -60,7 +60,20 @@ Descrição sobre o java e suas funcionalidades
 <p>public teste(int A, int B){}</p>
 <p>public teste(int A, double C){}</p>
 <p>public teste(String D, char E){}</p>
+
 <h2>Polimorfismo</h2>
+<p>classes que possuem o mesmo método mas podem ser diferentes entre si</p>
+<p>pessoa pf = new pessoFisica();</p>
+<p>public void teste(pessoaFisica X){}</p>
+
+<h2>Abstrata</h2>
+<p>A classe existe mas não pode ser criada</p>
+<p>Os métodos támbem precisa ser abstratos pois não pode ser criada pois a classe não pode ser criada.</p>
+<p>Por conta disso, a classe filho precisa implementar os métodos da mãe.</p>
+<p>public abstract class teste{
+  public abstract void teste(){--código aqui--}
+}</p>
+
 
 <h2>Interface</h2>
 
@@ -74,6 +87,12 @@ variável local
 
 
 class
+<h3>Construtores</h3>
+<p>Toda classe tem um construtor usando o próprio nome e toda vez que é instanciado(criado) é usado esse construtor para criação.</p>
+<p>public class teste(){
+  public teste(){} //Construtor
+}</p>
+
 herança
 polimorfismo
 interface
