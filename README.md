@@ -45,7 +45,21 @@ Descrição sobre o java e suas funcionalidades
 <h1>Classes</h1>
 
 <h2>Herança</h2>
+<p>Recebe os atributos e os métodos</p>
+<p>extends: para informar que a classe X é filha da classe Y</p>
+<p>public class X extends Y{}</p>
 
+<h2>Reescrita de método</h2>
+<p>A classe mãe possui um método e a classe filho pode repetir o método e fazer alterações</p>
+<p>public teste(){ "aaaaaaa"} // método mãe</p>
+<p>public teste(){"bbbbbbbb" // método filho</p>
+
+<h2>Sobrecarga</h2>
+<p>na mesma classe pode haver mais de um método repetido pois são diferenciados pela quantidade ou tipos de parâmetros</p>
+<p>public teste(int A){}</p>
+<p>public teste(int A, int B){}</p>
+<p>public teste(int A, double C){}</p>
+<p>public teste(String D, char E){}</p>
 <h2>Polimorfismo</h2>
 
 <h2>Interface</h2>
