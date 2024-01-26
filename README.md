@@ -76,6 +76,11 @@ Descrição sobre o java e suas funcionalidades
 
 
 <h2>Interface</h2>
+<p>Toda interface é abstrata e por conta disso não pode ter nada concreto.</p>
+<p>não possui variáveis.</p>
+<p>os métodos ficam vazios, não podendo escrever nenhuma linha de código dentro do método.</p>
+<p>public abstract intarface teste{} //interface</p>
+<p>public class X inplements teste{}</p>
 
 
 variável global
