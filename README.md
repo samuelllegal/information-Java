@@ -103,3 +103,7 @@ polimorfismo
 interface
 
 extends
+
+<h3>Lista de Arrays</h3>
+import java.util.ArrayList;
+ArrayList<String> lista = new ArrayList<>();
